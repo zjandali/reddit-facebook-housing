@@ -35,7 +35,7 @@ def housing_n_schoo():
                 Redditi += 1
     for post in get_posts(group='ucberkeleyoffcampushousing', pages=1):
         message += "Facebook Post #" + str(Facebooki) + ': \n' + str(post.get('text')) + "\n\n " + str(
-            post.get('post_url')) + '\n\n\n'
+            post.get('post_url')) + str(post.get('url')) + '\n\n\n'
         Facebooki += 1
 
     # smtp Server
