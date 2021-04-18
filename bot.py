@@ -42,7 +42,7 @@ def housing_n_schoo():
     port = 465
     smtp_server = "smtp.gmail.com"
     sender_email = "yzjandali@gmail.com"
-    receiver_email = "yzjandali@gmail.com"
+    receiver_email = "matthewsim2019@gmail.com"
     password = TokenInfo.password
 
     # Email to be sent
